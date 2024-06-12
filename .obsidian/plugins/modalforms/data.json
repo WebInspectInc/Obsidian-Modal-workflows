@@ -215,15 +215,16 @@
     {
       "title": "New Callout",
       "name": "new_callout",
-      "version": "1",
+      "customClassname": "new-callout",
       "fields": [
         {
           "name": "Type",
           "label": "",
           "description": "",
+          "isRequired": false,
           "input": {
             "type": "select",
-            "allowUnknownValues": false,
+            "source": "fixed",
             "options": [
               {
                 "value": "note",
@@ -277,43 +278,38 @@
                 "value": "quote",
                 "label": "Quote"
               }
-            ],
-            "source": "fixed"
-          },
-          "isRequired": false
+            ]
+          }
         },
         {
           "name": "Title",
           "label": "",
           "description": "",
+          "isRequired": false,
           "input": {
-            "type": "text",
-            "allowUnknownValues": false
-          },
-          "isRequired": false
+            "type": "text"
+          }
         },
         {
           "name": "Contents",
           "label": "",
           "description": "",
+          "isRequired": false,
           "input": {
-            "type": "text",
-            "allowUnknownValues": false
-          },
-          "isRequired": false
+            "type": "text"
+          }
         },
         {
           "name": "Collapsible",
           "label": "Collapsible?",
           "description": "",
+          "isRequired": false,
           "input": {
-            "type": "toggle",
-            "allowUnknownValues": false
-          },
-          "isRequired": false
+            "type": "toggle"
+          }
         }
       ],
-      "customClassname": "new-callout"
+      "version": "1"
     }
   ]
 }
