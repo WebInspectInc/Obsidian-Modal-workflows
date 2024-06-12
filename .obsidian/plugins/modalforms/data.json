@@ -211,6 +211,109 @@
         }
       ],
       "version": "1"
+    },
+    {
+      "title": "New Callout",
+      "name": "new_callout",
+      "version": "1",
+      "fields": [
+        {
+          "name": "Type",
+          "label": "",
+          "description": "",
+          "input": {
+            "type": "select",
+            "allowUnknownValues": false,
+            "options": [
+              {
+                "value": "note",
+                "label": "Note"
+              },
+              {
+                "value": "summary",
+                "label": "Summary"
+              },
+              {
+                "value": "info",
+                "label": "Info"
+              },
+              {
+                "value": "todo",
+                "label": "Todo"
+              },
+              {
+                "value": "tip",
+                "label": "Tip"
+              },
+              {
+                "value": "success",
+                "label": "Success"
+              },
+              {
+                "value": "question",
+                "label": "Question"
+              },
+              {
+                "value": "warning",
+                "label": "Warning"
+              },
+              {
+                "value": "fail",
+                "label": "Failure"
+              },
+              {
+                "value": "danger",
+                "label": "Danger"
+              },
+              {
+                "value": "bug",
+                "label": "Bug"
+              },
+              {
+                "value": "example",
+                "label": "Example"
+              },
+              {
+                "value": "quote",
+                "label": "Quote"
+              }
+            ],
+            "source": "fixed"
+          },
+          "isRequired": false
+        },
+        {
+          "name": "Title",
+          "label": "",
+          "description": "",
+          "input": {
+            "type": "text",
+            "allowUnknownValues": false
+          },
+          "isRequired": false
+        },
+        {
+          "name": "Contents",
+          "label": "",
+          "description": "",
+          "input": {
+            "type": "text",
+            "allowUnknownValues": false
+          },
+          "isRequired": false
+        },
+        {
+          "name": "Collapsible",
+          "label": "Collapsible?",
+          "description": "",
+          "input": {
+            "type": "toggle",
+            "allowUnknownValues": false
+          },
+          "isRequired": false
+        }
+      ],
+      "customClassname": "new-callout"
     }
   ]
 }
