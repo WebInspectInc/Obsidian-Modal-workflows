@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "192972c6f03360e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "beaa9a7a3b61cdf5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf532f0795d94e21",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f904a378bb6c942c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a312b1d8b69177e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c9da782c5cc79f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ebf414b5a0ae95aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2ee8f06dbb995bc0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9b79f42e93d806d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "b256ed4a399b21a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d21dc46df62b5af",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4afadf52680a68c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5b06351e8d7decd5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1aa047afd56421ea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "modalforms:Edit forms": false
+    }
+  },
+  "active": "cf532f0795d94e21",
+  "lastOpenFiles": [
+    "New Callout workflow.md",
+    "LICENSE",
+    "Welcome.md",
+    "Attachments",
+    "Attachments/creating-a-callout-with-modal-forms.mov",
+    "Test.md"
+  ]
+}
